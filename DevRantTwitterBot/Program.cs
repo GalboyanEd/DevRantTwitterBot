@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +8,11 @@ using devRantDotNet;
 
 namespace DevRantTwitterBot
 {
+    class Config
+    {
+        public static string path = "TweetedRants.txt";
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -24,6 +30,19 @@ namespace DevRantTwitterBot
                 });
             }
             return rantsIDs;
+        }
+
+        private static bool alreadyTweeted(long rantId)
+        {
+            using(StreamReader sr = File.OpenText(Config.path))
+            {
+                string currentRantId;
+                while((currentRantId = sr.ReadLine()) != null)
+                    if(Convert.ToInt64(currentRantId) == rantId)
+                        return true;
+            } 
+
+            return false;
         }
     }
 }
