@@ -1,0 +1,9 @@
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/bin/Debug/DevRantTwitterBot.exe
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/bin/Debug/DevRantTwitterBot.pdb
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/bin/Debug/devRantDotNet.dll
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/obj/x86/Debug/DevRantTwitterBot.csprojResolveAssemblyReference.cache
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/obj/x86/Debug/DevRantTwitterBot.csproj.CoreCompileInputs.cache
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/obj/x86/Debug/DevRantTwitterBot.exe
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/obj/x86/Debug/DevRantTwitterBot.pdb
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/bin/Debug/Newtonsoft.Json.dll
+/home/eduard/Projects/DevRantTwitterBot/DevRantTwitterBot/bin/Debug/Newtonsoft.Json.xml
