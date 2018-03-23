@@ -1,2 +1,5 @@
 packages/
 .vs/
+*.config
+DevRantTwitterBot/bin/
+DevRantTwitterBot/obj/
